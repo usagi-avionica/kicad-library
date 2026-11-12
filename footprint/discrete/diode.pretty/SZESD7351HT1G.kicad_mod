@@ -1,0 +1,119 @@
+(footprint "SZESD7351HT1G"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ad267374-98e6-4ead-90d3-164f8d7da6a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SZESD7351HT1G"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26340267-3ee2-4d06-b4c8-aed9ec0db8b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e1eea90-54fb-47e9-8c09-18d56d022789")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8dc2374-7afe-42fe-a3ec-f3f9f3e78a61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.53 -0.775)
+		(end 1.53 0.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6e4b7785-0bbe-4cf1-84ac-cdcae8b17121")
+	)
+	(fp_rect
+		(start -1.35 -0.675)
+		(end 1.35 0.675)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "96c487a4-1054-4cb7-8645-1783f3ebedc5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b9338a29-828a-4de2-95b9-e939c03067b1")
+		(effects
+			(font
+				(size 0.1 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.115 0)
+		(size 0.63 0.83)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0fb87187-69d0-486b-8c03-0413d05ba140")
+	)
+	(pad "2" smd roundrect
+		(at 1.115 0)
+		(size 0.63 0.83)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f292919d-da33-4c62-8a46-1718f7e5589d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/model/discrete/diode/SZESD7351HT1G.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,129 @@
+(footprint "TSW-103-07-F-S"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "edc3fbc9-daaa-4160-92e6-09a149032151")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TSW-103-07-F-S"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41e970a2-0903-4fdb-984e-c62e095e816f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0d41480-bb2c-469f-9d0f-2def167639f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d58470e2-d4ce-4cf7-aa3d-d20c29d56595")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3.81 -1.51)
+		(end 3.81 1.51)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "6fb96b9f-665d-45a0-be17-f1632db2b56a")
+	)
+	(fp_rect
+		(start -4.31 -2.01)
+		(end 4.31 2.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3590d391-e854-420d-86a2-bf8583854281")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9cfa1e41-61a6-4253-82af-f806a8c2417c")
+		(effects
+			(font
+				(size 0.2 0.2)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 2.02 2.02)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "630c9b82-26fc-4ccd-a60b-dd2967ceebb2")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2.02 2.02)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e6c55ef3-a5ba-4681-8699-6f8de78f1ccd")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 2.02 2.02)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "16abb0e5-5956-4242-8301-23cbe5cbc2ff")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/model/electromechanical/connector/TSW-103-07-F-S.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

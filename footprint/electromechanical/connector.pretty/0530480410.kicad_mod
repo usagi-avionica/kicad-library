@@ -1,0 +1,137 @@
+(footprint "0530480410"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a45cdb41-e520-43c1-8346-b5de7e41b267")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "0530480410"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a901bf5d-63b2-4af4-97fa-9d3c5bdf65bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "caba30fa-6c37-4183-b5a9-7b7ba39b6d91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50571881-f43b-45a9-9b8d-4937c41cb24c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3.875 -1.5482)
+		(end 3.875 4.9518)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "33f1a5cc-7013-44e0-b0c3-3fda1b35c5e3")
+	)
+	(fp_rect
+		(start -3.375 -1.0482)
+		(end 3.375 4.4518)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ec7d88ac-df00-4ba4-bce7-a1f9a59f6ac6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f86774b7-108f-4296-84ca-f54a9a283a02")
+		(effects
+			(font
+				(size 0.25 0.25)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.875 0)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "013b0adf-7495-4420-8dd5-f38e3f7a71ee")
+	)
+	(pad "2" thru_hole circle
+		(at -0.625 0)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "36301479-a175-491d-9e9e-dc1a510babf4")
+	)
+	(pad "3" thru_hole circle
+		(at 0.625 0)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f09d631c-2d01-4c35-93d3-1dba41215ea8")
+	)
+	(pad "4" thru_hole circle
+		(at 1.875 0)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "74208152-29a9-4d1b-a2f0-e53e10c79141")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/model/electromechanical/connector/0530480410.step"
+		(offset
+			(xyz 0 -5.46 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

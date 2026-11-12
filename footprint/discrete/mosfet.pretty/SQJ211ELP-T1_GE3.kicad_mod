@@ -1,0 +1,154 @@
+(footprint "SQJ211ELP-T1_GE3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "55cc4132-7be2-45bf-a285-9880769f4a55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SQJ211ELP-T1_GE3"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dddb5d24-6330-4b00-a146-e6109d0866da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef25f901-422f-4b29-8da5-7fd5c9fb0643")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4196964-60cf-4c24-99f6-eb452bf2cbcf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.875 -4.35)
+		(end 2.875 2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3ddf5388-3585-4b9f-971d-0b936d25af9e")
+	)
+	(fp_rect
+		(start -2.625 -4.1)
+		(end 2.625 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ab5db27e-bb26-40bc-8de7-9c36fe0a0c54")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7a7f82bd-389d-4459-a4f5-5b83f4032901")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(pad "D" smd rect
+		(at -2.328 -1.015)
+		(size 0.595 0.61)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "54b014fa-acab-4da8-a05a-20a009dba355")
+	)
+	(pad "D" smd rect
+		(at 0 -3.885)
+		(size 5 0.51)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2a9b3b86-115b-47bc-8fc8-958b5913f8d9")
+	)
+	(pad "D" smd rect
+		(at 0 -1.815)
+		(size 4.061 3.63)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5b276a5b-bca7-47b1-bb32-4150ee57c56e")
+	)
+	(pad "D" smd rect
+		(at 2.328 -1.015)
+		(size 0.595 0.61)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8ec8078e-9a08-471c-913a-831023addc54")
+	)
+	(pad "G" smd rect
+		(at 1.905 1.701)
+		(size 0.41 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "df68bb87-05c0-4ac6-8c80-09084ce09a03")
+	)
+	(pad "S" smd rect
+		(at -1.905 1.701)
+		(size 0.41 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "84bb2b0d-5585-4ed2-9f83-d0970fa8fe7e")
+	)
+	(pad "S" smd rect
+		(at -0.635 1.701)
+		(size 0.41 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b4a5d29a-49fe-4a82-a6cf-ec8ef03ce4f8")
+	)
+	(pad "S" smd rect
+		(at 0.635 1.701)
+		(size 0.41 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "94419dc0-1ebe-4308-8185-c7cfd858bba9")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/model/discrete/mosfet/SQJ211ELP-T1_GE3.step"
+		(offset
+			(xyz 0 1.2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

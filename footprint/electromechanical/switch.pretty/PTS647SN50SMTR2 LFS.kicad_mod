@@ -1,0 +1,138 @@
+(footprint "PTS647SN50SMTR2 LFS"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b5a80e27-12e4-4c25-b775-8c7b910a1274")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PTS647SN50SMTR2 LFS"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf921f7f-101c-408b-8d9e-c3e5a832abd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6e83b7c-0985-4822-8326-5146384a4347")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c4d6887-e9f3-46bd-85cb-f88d931d7574")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3.9 -2.75)
+		(end 3.9 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1e553c56-b58c-403e-9722-6ad376d9bdde")
+	)
+	(fp_rect
+		(start -2.25 -2.25)
+		(end 2.25 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "64ebeadd-4716-47e9-9796-3a84403813f3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c8c49ffc-33f7-44cf-ba34-3e47ccad5caa")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.03125)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.625 -1.6)
+		(size 1.55 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "9ddb757e-809c-4f81-83bb-f45b0ccaaacf")
+	)
+	(pad "2" smd roundrect
+		(at 2.625 -1.6)
+		(size 1.55 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "adef61c8-c3ca-4944-8211-4648ab431d07")
+	)
+	(pad "3" smd roundrect
+		(at -2.625 1.6)
+		(size 1.55 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "00f77202-8472-4078-88d4-7e8029014488")
+	)
+	(pad "4" smd roundrect
+		(at 2.625 1.6)
+		(size 1.55 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "d8f93215-a719-445a-a610-460f500b5b35")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/model/electromechanical/switch/PTS647SN50SMTR2 LFS.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

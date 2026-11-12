@@ -1,0 +1,143 @@
+(footprint "C_1812_Density_Nominal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMD Capacitor 1812 Density Level B (Nominal)")
+	(property "Reference" "REF**"
+		(at 0 -0.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "862f03f6-0a0f-4123-86ea-5319e75fdc50")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_1812_Density_Nominal"
+		(at 0 0.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7959ac50-4ca5-4b98-ba57-ed5f8b7ef416")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da6a765a-78cd-41e6-9c10-e8879f8b9568")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d552b1c5-c2b1-4700-b9c6-6d4a1018db18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -3 -1.95)
+		(end -2.95 -1.95)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "aeb4f2d6-d2e8-4af8-a101-12f0ff7f248d")
+	)
+	(fp_circle
+		(center -2.29 -1.09)
+		(end -2.24 -1.09)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "d3d84084-fd72-4573-8261-8001d1b4cbe0")
+	)
+	(fp_rect
+		(start -3.05 -2)
+		(end 3.05 2)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "34ca4b91-95ef-4df4-8b38-35aba3507a02")
+	)
+	(fp_rect
+		(start -2.45 -1.75)
+		(end 2.45 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4e3025b0-ca32-4d54-b81e-8d572a3527d2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "883f8234-0c84-49fc-8186-f87e899fa69a")
+		(effects
+			(font
+				(size 0.15 0.15)
+				(thickness 0.01875)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2 0 90)
+		(size 3.6 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4f75b1a5-d4e8-470b-9ab4-ed5c20610b10")
+	)
+	(pad "2" smd roundrect
+		(at 2 0 90)
+		(size 3.6 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4c413ade-a4ff-4e60-bc25-8a4441bdc7db")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/model/passive/capacitor/C_1210.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

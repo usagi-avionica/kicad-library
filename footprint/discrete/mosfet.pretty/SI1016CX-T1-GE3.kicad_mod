@@ -1,0 +1,158 @@
+(footprint "SI1016CX-T1-GE3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "33c59305-4970-4669-952e-1c842549646e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SI1016CX-T1-GE3"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f9a05bb-0dfc-4a83-bf0c-61a16a7e7d0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92b9ee3b-aada-42f2-8095-3b7c0df419cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a731517-002e-46ff-8c50-2cf281f40897")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.1 -1.1265)
+		(end 1.1 1.1265)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "110f0566-b779-4e76-adf1-9450f07fdd0f")
+	)
+	(fp_rect
+		(start -0.85 -0.625)
+		(end 0.85 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b78324d5-cac0-4639-9b96-78e65cd4e782")
+	)
+	(fp_circle
+		(center -0.762 0.889)
+		(end -0.6985 0.889)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "b4a9f9c3-689f-41c8-847a-2907f2ebfe24")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c8b91add-41dd-49db-900c-d4a6f70649c8")
+		(effects
+			(font
+				(size 0.1 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.5 0.6375 180)
+		(size 0.3 0.478)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "73ac5144-25f5-4d4c-998d-7c65cd5ed35a")
+	)
+	(pad "2" smd roundrect
+		(at 0 0.6375 180)
+		(size 0.3 0.478)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "368f4437-8976-4b5f-98d5-41fcd305abba")
+	)
+	(pad "3" smd roundrect
+		(at 0.5 0.6375 180)
+		(size 0.3 0.478)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "9fb16f7d-80b6-458e-ad59-1586bf9553e7")
+	)
+	(pad "4" smd roundrect
+		(at 0.5 -0.6375 180)
+		(size 0.3 0.478)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ce2fe83d-454f-423d-839d-d2235f6fe777")
+	)
+	(pad "5" smd roundrect
+		(at 0 -0.6375 180)
+		(size 0.3 0.478)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "cabe7ff5-7edc-4737-9b19-b890bf100079")
+	)
+	(pad "6" smd roundrect
+		(at -0.5 -0.6375 180)
+		(size 0.3 0.478)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4ad357ff-cfaf-406b-b04c-a6071dcf5d14")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/model/discrete/mosfet/SI1016CX-T1-GE3.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

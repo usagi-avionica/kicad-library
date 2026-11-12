@@ -1,0 +1,132 @@
+(footprint "R_2010_Density_Nominal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0c0e87e2-e610-4805-9ee6-e28feddbee1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "R_2010_Density_Nominal"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8422db46-dd41-49f1-962f-42a278dbebd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9bb922ad-d793-424d-8c34-9ae4dac787c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7ed81e1-b59c-406a-a1d3-dfb687f22336")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -3.175 -1.397)
+		(end -3.125 -1.397)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "63211ba7-318f-4d05-996b-c757c7b0ca6d")
+	)
+	(fp_rect
+		(start -3.3 -1.53)
+		(end 3.3 1.53)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(net "")
+		(uuid "56a51cd6-6f75-430c-8b24-1a5094f7f28a")
+	)
+	(fp_rect
+		(start -2.575 -1.325)
+		(end 2.575 1.325)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(net "")
+		(uuid "741cc985-92ea-4d36-8ea4-15ba6ff23167")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "80350b87-decf-473c-96b6-130944bfbc11")
+		(effects
+			(font
+				(size 0.25 0.25)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.45 0 90)
+		(size 2.7 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b40cacfa-5d78-403c-8dda-37e2c1a1bc99")
+	)
+	(pad "2" smd roundrect
+		(at 2.45 0 90)
+		(size 2.7 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "56cb18fa-ffa0-450b-b9a6-bf9118cda5d5")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/model/passive/resistor/R_2010.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

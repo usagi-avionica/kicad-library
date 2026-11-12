@@ -1,0 +1,134 @@
+(footprint "C_1210_Density_Nominal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMD Capacitor 1210 Density Level B (Nominal)")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bf7e568d-3b9e-4103-9ba1-758c63e1c3e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "C_1210_Density_Nominal"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49485a81-e29f-4b2a-ab8f-1686d92742d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f77ccc3c-df1f-4697-b8f8-042e1b32e717")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e0146ac-c2d0-4b26-b4e2-b9a72f0252ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -2.3 -1.55)
+		(end -2.25 -1.55)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "725a81d9-5d82-4a45-8541-469b07e95d4d")
+	)
+	(fp_rect
+		(start -2.35 -1.6)
+		(end 2.35 1.6)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "38b6e73e-2708-4bc8-b3d3-1adf4bc87066")
+	)
+	(fp_rect
+		(start -1.75 -1.36)
+		(end 1.75 1.36)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b6b51afb-23b2-41d8-8462-34dc4e8c49eb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6eda5e44-dbaa-419d-b6fe-0649c79e9b4f")
+		(effects
+			(font
+				(size 0.15 0.15)
+				(thickness 0.01875)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.5 0)
+		(size 1.15 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "2e941a88-6c81-4fde-b05c-418d792c44d0")
+	)
+	(pad "2" smd roundrect
+		(at 1.5 0)
+		(size 1.15 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "19c5f1fe-8216-4485-be41-ac86c15a82ec")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/model/passive/capacitor/C_1210.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
